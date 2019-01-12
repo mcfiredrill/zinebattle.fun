@@ -15,4 +15,19 @@ img {
 body {
   background-image: url("/images/bg.gif");
   font-size: 14px;
+  nav {
+    font-size: 24px;
+    ul li {
+      list-style: none;
+      display: inline;
+      a {
+        color: yellow;
+        background: salmon;
+      }
+      a:hover {
+        color: salmon;
+        background: yellow;
+      }
+    }
+  }
 }
