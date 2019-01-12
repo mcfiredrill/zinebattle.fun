@@ -1,0 +1,18 @@
+$icon-font-path: "/fonts/"; /* use fonts from priv/static/fonts/ */
+@import "bootstrap"; /* imports node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss */
+@import "font-awesome";
+
+img {
+  @media only screen and (max-device-width: 480px) {
+    max-width: 280px;
+  }
+}
+
+.container {
+  background: #fff;
+}
+
+body {
+  background-image: url("/images/bg.gif");
+  font-size: 14px;
+}
