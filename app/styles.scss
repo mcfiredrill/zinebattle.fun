@@ -31,3 +31,13 @@ body {
     }
   }
 }
+.flex-container {
+  display: flex;
+  .flex-item {
+    padding: 15px;
+  }
+}
+.artist {
+  margin-bottom: 5px;
+  border-bottom: dashed 5px yellow;
+}
