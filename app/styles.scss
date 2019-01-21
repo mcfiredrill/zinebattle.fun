@@ -44,6 +44,17 @@ body {
   border-bottom: dashed 5px yellow;
 }
 
+form {
+  padding: 10px;
+  input#mc-embedded-subscribe {
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    background: lightblue;
+    color: white;
+  }
+}
+
 button {
   background: lightblue;
   color: white;
@@ -60,4 +71,35 @@ button {
   font-size: 50px;
   border: dashed white 2px;
   border-radius: 5px;
+}
+
+table {
+  border: dashed 10px lightblue;
+  tr td {
+    border: dashed 10px lightblue;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    &:hover {
+      border: dashed 10px salmon;
+    }
+  }
+  td#romero {
+    background: url('/images/romero_char_bw.png') !important;
+    &:hover {
+      background: url('/images/romero_char.png') !important;
+    }
+  }
+  td#kiki {
+    background: url('/images/kiki_char_bw.png') !important;
+    &:hover {
+      background: url('/images/kiki_char.png') !important;
+    }
+  }
+  td#firedrill {
+    background: url('/images/firedrill_char_bw.png') !important;
+    &:hover {
+      background: url('/images/firedrill_char.png') !important;
+    }
+  }
 }
