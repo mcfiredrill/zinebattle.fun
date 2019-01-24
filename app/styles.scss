@@ -90,6 +90,12 @@ table {
       background: url('/images/romero_char.png') !important;
     }
   }
+  td#richie {
+    background: url('/images/richie_char_bw.png') !important;
+    &:hover {
+      background: url('/images/richie_char.png') !important;
+    }
+  }
   td#kiki {
     background: url('/images/kiki_char_bw.png') !important;
     &:hover {
@@ -100,6 +106,30 @@ table {
     background: url('/images/firedrill_char_bw.png') !important;
     &:hover {
       background: url('/images/firedrill_char.png') !important;
+    }
+  }
+  td#light {
+    background: url('/images/light_char_bw.png') !important;
+    &:hover {
+      background: url('/images/light_char.png') !important;
+    }
+  }
+  td#webb {
+    background: url('/images/webb_char_bw.png') !important;
+    &:hover {
+      background: url('/images/webb_char.png') !important;
+    }
+  }
+  td#guest1 {
+    background: url('/images/guest1_char_bw.png') !important;
+    &:hover {
+      background: url('/images/guest1_char.png') !important;
+    }
+  }
+  td#guest2 {
+    background: url('/images/guest2_char_bw.png') !important;
+    &:hover {
+      background: url('/images/guest2_char.png') !important;
     }
   }
 }
